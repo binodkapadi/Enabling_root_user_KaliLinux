@@ -1,0 +1,28 @@
+1) HOW TO ENABLE ROOT USER IN KALI LINUX?
+
+ANS:: SIMPLY FOLLOW THE GIVEN STEPS (RUN THE GIVEN COMMANDS IN KALI LIUX TERMINAL) =>
+
+sudo apt update
+sudo apt upgrade
+sudo apt install kali-root-login
+sudo passwd root
+
+After running 8th command in the terminal you have to enter the password of the normal user that you have set previously.
+Then you have to set the password of the root user...After retyping password password was successfully set.
+
+NOTE:: WHILE TYPING THE PASSWORD IT WAS NOT VISIBLE TO YOU SO DON'T GET CONFUSED.
+
+After that logout from the normal user and login as the root user::
+username:root
+password:that you have set previously
+
+2) HOW TO DISABLE ROOT USER IN KALI LINUX?
+
+ANS:: RUN THE GIVEN COMMAND IN THE TERMINAL=>
+
+passwd -l root
+exit
+
+AFIER THAT YOU HAVE SUCCESFULLY DISABLED THE ROOT USER.
+
+    GOOD LUCK HACKWORLD!!
